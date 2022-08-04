@@ -1,9 +1,10 @@
 public class LeapYear {
     public static void main(String[] args) {
-        int year = 1997;
+        int year = 2020;
         if (year%4==0 && year%100!=0 || year% 400 == 0){
             System.out.println("year" + year + "leap year");
-        }else{
+        }
+        else{
             System.out.println("year" + year + "not leap year");
         }
     }
