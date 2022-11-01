@@ -12,7 +12,7 @@ public class CalculatorTestSuite {
         int a = 5;
         int b = 8;
         int addResult = calculator.add(a, b);
-        assertEquals(14, addResult);
+        assertEquals(13, addResult);
     }
 
     @Test

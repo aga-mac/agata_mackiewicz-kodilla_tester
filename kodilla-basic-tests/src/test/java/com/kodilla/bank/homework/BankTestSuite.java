@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BankTestSuite {
     @Test
-    public void shouldHaveFourLenght() {
+    public void shouldHaveFourLength() {
         CashMachine ATM = new CashMachine();
         CashMachine ATM1 = new CashMachine();
         CashMachine ATM2 = new CashMachine();
@@ -50,7 +50,7 @@ public class BankTestSuite {
         ATM3.operations(800);
 
         bankING.getTotalNumberOfDeposits();
-        assertEquals(4, bankING.getTotalNumberOfDeposits());
+        assertEquals(3, bankING.getTotalNumberOfDeposits());
     }
 
     @Test
