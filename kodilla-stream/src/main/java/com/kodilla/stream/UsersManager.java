@@ -7,6 +7,12 @@ public class UsersManager {
     public static void main(String[] args) {
         List<String> chemistGroupUsernames = filterChemistGroupUsernames();
         System.out.println(chemistGroupUsernames);
+        System.out.println(" ");
+        List<String> olderThan = filterUsersOlderThan();
+        System.out.println(olderThan);
+        System.out.println(" ");
+        List<String> numberOfPost = filterNumberOfPost();
+        System.out.println(numberOfPost);
     }
     public static List<String> filterChemistGroupUsernames() {
         List<String> usernames = UserRepository.getUsersList()
